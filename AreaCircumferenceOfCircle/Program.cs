@@ -16,10 +16,10 @@ namespace AreaCircumferenceOfCircle
             int r = Int32.Parse(Console.ReadLine());
             
             double Circumference = 2 * Math.PI * r;
-            Console.WriteLine($"The Circumference of the circle is {Circumference}");
+            Console.WriteLine($"The Circumference of the circle is {Circumference:F3}");
             
             double Area = Math.PI * r * r;
-            Console.WriteLine($"The Area of the circle is {Area}");
+            Console.WriteLine($"The Area of the circle is {Area:F3}");
 
             Console.ReadLine();
         }
